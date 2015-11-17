@@ -38,7 +38,16 @@
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-70263796-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 
 
@@ -64,7 +73,10 @@
            
            <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
-             
+              <li><a href="#hero">Start <span class="sr-only">(current)</span></a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#pricing">Pricing</a></li>
                                   </ul>
 
           </div><!-- /.navbar-collapse -->
@@ -77,31 +89,59 @@
 
 
 
-
-
-
 <!-- Hero area -->
     <div class="wrapper-shadow">
-        <section id="hero" class="wrapper wrapper-dark wrapper-huge wrapper-bg-gradient" style="background-image: url(img/image3.jpg); background-size:cover;" data-start="background-position:0% 50%;" data-top-bottom="background-position:0% 0%;">
+      <section id="hero" class="wrapper wrapper-dark wrapper-huge wrapper-bg-gradient" style="background-image: url(img/image3.jpg); background-size:cover;" data-start="background-position:0% 50%;" data-top-bottom="background-position:0% 0%;">
            <div class="overlay"></div>
-          <div class="container  wow fadeIn text-center">
-            <div class="row">
-
-
-              <div class="col-md-12">
-                <h3>Online and Mobile software that will take you further than ever before.</h3>
-              </div>
+        <div class="container  wow fadeIn text-center">
+          <div class="row">
+            <div class="col-md-12">
+            <h3>Online and Mobile software that will take you further than ever before.</h3>
+            </div>
+            
               <div class="col-md-8 col-md-offset-2">
-               
+                <h4><strong>Import, Customise, Report, Share, Integrate.</strong></h4></br></br>
+                  <div class="fb-like" data-href="https://www.facebook.com/Webfront-Gears-836091079736667/" data-layout="button" data-action="like" data-show-faces="true" data-share="true">
+                  </div>
+              </div>
+              
+              <div class="col-md-4 col-md-offset-4">
+                <a class="btn btn-lg btn-success btn-block" href="#about">Learn more</a>
+              </div>
+            </div>
+        </div>
+      </section>
+    </div>
 
-               <h4><strong>Import, Customise, Report, Share, Integrate.</strong></h4></br>
-               </br>
+
+   
+
+        <!-- Contrast wrapper with sample content -->
+        <section id="about" class="wrapper wrapper-accent wrapper-lg">
+          <div class="container  wow fadeIn">
+            <div class="row">
+              <div class="col-md-7">
+                <h2>Webfront in 2015</h2>
+                <p class="lead">Imagine taking the power of a great online solutions and making it your own. Now you can!</p>
                 
-           
+                 <h2>Starting something new has never been easier.</h2>
+                 <p>With our Gears.Core platform we have the power and the tools to build and manage empire of solutions for mobile and desktop. We are constantly developing new features and tools to make the whole experience quicker, simpler and more powerful. </br></br>
+                 Need something more than todoist or and don't want the bill of an enteprise SAP solution.</br>
+                  Take home webfront today and let us help you make the system your own. </br>
+                  Don't get caught with systems that don't scale or integrate.</br></br>
+                  Talk with us today about how we can save you money and make a difference.</br>
+                  
+                  </br>
+
+               </p> </br></br>
+
+                 
+                  <a class="btn btn-default btn-sm" href="#team1" onclick=" $('.owl-carousel').data('owlCarousel').to(0);" >Learn more</a>
 
               </div>
-              <div class="col-md-4 col-md-offset-4">
-                <a class="btn btn-lg btn-success btn-block" href="#about">Comming Soon!</a>
+                 <div class="col-md-5">
+                 <img src="img/ipad.png" class="img-responsive" alt="alternative image txt"/>
+             
               </div>
             </div>
           </div>
@@ -109,6 +149,303 @@
 
 
 
+
+
+
+
+
+
+<!-- Slider area -->
+<div class="owl-carousel  wow fadeIn" id="slider" >
+
+        <!--Slide 1 -->
+        <section>
+          <!-- content area with 3 images -->
+        <section id="team1" class="wrappers-sm-cr">
+          <div class="container  wow fadeIn text-center " >
+            <h4>We have worked with a wide range of organisations including</h4>
+            <h3>Manufacturers, Mailing houses, Printers and Agencies</h3></br>
+              <div class="col-md-4 col-md-offset-4">
+                <a class="btn btn-sm btn-success btn-block" onclick=" $('.owl-carousel').trigger('next.owl.carousel', [300]);">Learn more</a>
+                
+              </div>
+          </div>
+        </section>
+        <div id="slide1" class="wrapper wrapper-dark wrapper-huge wrapper-bg-gradient" style="background-image: url(img/print.jpg); background-size:cover;" data-start="background-position:0% 50%;" >
+         <div class="overlay"></div></div> 
+        </section>
+
+
+
+
+
+        <!--Slide 2 -->
+        <section>
+        <section id="team2" class="wrappers-sm-cr">
+          <div class="container  wow fadeIn text-center">
+           <h4>We have worked with a wide range of organisations including</h4>
+            <h3>The Australian Defence Force</h3></br>
+           <div class="col-md-4 col-md-offset-4">
+                <a class="btn btn-sm btn-success btn-block" onclick=" $('.owl-carousel').trigger('next.owl.carousel', [300]);" >Learn more</a>
+                
+              </div>
+          </div>
+        </section>
+        <div id="slide2" class="wrapper wrapper-dark wrapper-huge wrapper-bg-gradient" style="background-image: url(img/air.jpg); background-size:cover;" data-start="background-position:0% 50%;">
+             <div class="overlay"></div></div>
+
+        </section>
+
+
+
+        <!--Slide 3 -->
+        <section>
+        <section id="team3" class="wrappers-sm-cr">
+          <div class="container  wow fadeIn text-center">
+           <h4>We have worked with a wide range of organisations including</h4>
+            <h3>Retail, Trade and Wholesalers</h3></br>
+           <div class="col-md-4 col-md-offset-4">
+                <a class="btn btn-sm btn-success btn-block" onclick=" $('.owl-carousel').trigger('next.owl.carousel', [300]);" >Learn more</a>
+                
+              </div>
+          </div>
+        </section>
+        <div id="slide2" class="wrapper wrapper-dark wrapper-huge wrapper-bg-gradient" style="background-image: url(img/retail.jpg); background-size:cover;" data-start="background-position:0% 50%;">
+             <div class="overlay"></div></div>
+
+        </section>
+
+
+
+
+
+
+        <!--Slide 3 -->
+        <section>
+         <section id="team4" class="wrappers-sm-cr">
+              <div class="container  wow fadeIn text-center">
+                 <h3>We have worked with a wide range of organisations including</h4>
+               <h4>Service Providers, Consultants and Distributors</h3></br>
+               <div class="col-md-4 col-md-offset-4">
+                <a class="btn btn-sm btn-success btn-block" href="#about2">Learn more</a>
+                 
+              </div>
+              </div>
+        </section>
+
+
+        <div id="slide3" class="wrapper wrapper-dark wrapper-huge wrapper-bg-gradient" style="background-image: url(img/fire.jpg); background-size:cover;" data-start="background-position:0% 75%;">
+         <div class="overlay"></div>
+
+         </div></section>
+          
+</div> 
+
+
+
+
+
+
+         <!-- ipad screenshot -->
+        <section id="about2" class="wrapper wrapper-default wrapper-lg">
+          <div class="container  wow fadeIn">
+            <div class="row">
+              <div class="col-md-7">
+                <img src="img/ipad.png" class="img-responsive" alt="alternative image txt"/>
+              </div>
+              <div class="col-md-5" style="margin-top:0px;">
+               
+               
+                 <h2>CRM, ERP, MIS.</h2>
+                 <p>Well rounded base modules can be utilised to help kick things off, or start fresh with the ability to select from countless templates.</p>
+
+                 <h2>Don't get stuck!</h2>
+                 <p>Other systems may look like they can do the job, however you may be caught with something that creates a bigger mess. We know the questions to ask to help bring you success no matter the size or complexity of the requirement. We have worked with small and large organisations to deliver results.
+                 </p>
+
+                 <h2>Dedicated to Success</h2>
+                 <p>We wrote our own tools becuase we were tired of getting so close to the goals with every other system available and finding endless dead ends.
+                  The solutions available now are our own, with no limitations or restrictions.</br>
+
+                  </br> Have a seemingly difficult project to tackle?</br>"Yes, we can do that - let's discuss the options."</p></br></br>
+
+   <a class="btn btn-default btn-sm" href="#contact">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      
+
+
+
+       
+
+
+         <section id="contact" class="wrapper wrapper-contrast wrapper-huge " style="background-image: url(img/image7.jpg);background-size:cover;"  data-start="background-position:0% 150%;" data-top-bottom="background-position:0% 0%;">
+                     <div class="overlay overlay-darker"></div>
+          <div class="container  wow fadeIn">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 text-center">
+                  <h2>Learn more about us</h2>
+                  
+                   
+                   <p class="lead">We'd love the opportunity to lend our advice and </br> show you what we are capeable of. </p>
+                   <h2>+613 5995 4234 </h2><p class="lead">Call or Email us today so we can to get to know you.</p>
+                    <a class="btn btn-default  btn-sm" href="mailto:info@webfrontgears.com?Subject=Webfront.Gears%20Introduction">Email Us</a>
+                    <a class="btn btn-sm btn-success " href="#pricing">Pricing</a>
+                     </br>
+                  </p>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+
+
+  
+
+           <!-- Pricing table -->
+        <section id="pricing" class="wrapper wrapper-dark wrapper-md">
+          <div class="container wow fadeIn">
+            <div class="row">
+              <div class="col-md-12">
+                <h3>Pricing</h3>
+                <p>All prices below are in Australian Dollars.</p>
+              </div>
+            </div>
+            <div class="row pricing-table-row">
+              <div class="col-md-4 pricing-table-col">
+                <div class="pricing-table-header text-center">
+                <div>&nbsp;</div>
+                  <h3>Consultations</h3>
+                  <h1><small>$</small>120*<small>/ hour </small></h1>
+                </div>
+
+                <div class="pricing-table-body">
+                  <p class="lead">With over 15 years experience in systems, design and technology we can help take you further.</p>
+                  <ul>
+                    <li><strong>Experts in Technology and workflow solutions</strong></li>
+                    <li>CRM, ERP and MIS Project management</li>
+                    <li>Crystal Reports, Roambi, Qlik</li>
+                    <li>Filemaker Pro, Microsoft Access, Dolphin</li>
+                    <li>MYOB, Xero, Quickbooks, ABM, Arrow and more.</li>
+                    <li>Database Optimisation</li>
+                    <li>Mobile and Web Applications</li>
+                    <li>Websites & Design</li>
+                    <li>Barcode and input devices</li>
+                    <li>IT,Server and Hosting Support</li>
+                    <li>* Based on contracted pricing.</li>
+                   </ul>   
+                </div>
+              </div>
+
+              <div class="col-md-4 pricing-table-col">
+                
+                <div class="pricing-table-header text-center">
+                  <div class="best-price">Site License</div>
+                  <h3>Gears Engine</h3>
+                  <h1><small>$</small>14,000</br><small>+ $400/month.</small> </h1>
+                </div>
+
+                <div class="pricing-table-body">
+                  <p class="lead">Start connecting the dots today. Unlimited Users!**</p>             
+                  <ul>
+                    <li><strong>Base CRM, MIS, Reporting and ERP Modules</strong></li>
+                    <li>From Sales Orders to Invoices, Prospects to Customers</li>
+                    <li>Online and Offline Modules</li>
+                    <li>Host locally or in the Cloud</li>
+                    <li>Quickly Share live data with staff, customers, prospects and teams</li>
+                    <li>Deploy Dynamic Email, HTML, PDF Reports and Dashboards</li>
+                    <li>Automate tasks and processes</li>
+                    <li>Integrate systems with Webfront API</li>
+                    <li>Group to Granular Permissions</li>
+                    <li>Documentation Engine</li>
+                    <li>Offline Mobile SYNC</li>
+                    <li>Creare Forms, Dashboards, Tables</li>
+                    <li>Add widgets and Applications</li>
+                    <li>Create and Change templates</li>
+                    <li>SSL Secured</li>
+                    <li>** Users only limited to physical resources.</li>
+                    <li><a class="btn btn-lg btn-success btn-block" href="#pricingb">Additional Modules</a></li>
+                    
+                    
+                   </ul>   
+                </div>
+              </div>
+
+
+
+              <div class="col-md-4 pricing-table-col">
+                <div class="pricing-table-header text-center">
+                <div>&nbsp;</div>
+                  <h3>Gears Local Server</h3>
+                  <h1><small>$</small>3,750<small></small></h1>
+                </div>
+
+                <div class="pricing-table-body">
+                  <p class="lead">Plug in and start today.</p>
+                  <ul>
+                    <li><strong>Intel i7 Q 1TB HDD, 16gb RAM</strong></li>
+                    <li><strong>Windows 8 Professional and Linux</strong></li>
+                    <li>Webfront Gears pre-installed.</li>
+                    <li>Host webpages</li>
+                    <li>Price excludes site installation and delivery.</li>
+                   </ul>   
+                </div>
+              </div>
+
+                 <div class="col-md-4 pricing-table-col">
+                <div class="pricing-table-header text-center">
+               
+                  <h3>Cloud Hosting</h3>
+                  <h1><small>$</small>120<small>/month </small></h1>
+                </div>
+
+                <div class="pricing-table-body">
+                  <p class="lead">Save on the hastles of owning your own server.</p>
+                  <ul>
+                    <li><strong>Windows 2012 Server with Linux</strong></li>
+                    <li>Setup starting from $1,650</li>
+                   </ul>   
+                </div>
+              </div>
+             
+            </div>
+          </div>
+        </section>
+
+        <section id="pricingb" class="wrapper wrapper-md">
+          <div class="container wow fadeIn">
+            <div class="row">
+              <div class="col-md-12">
+                <h3>Standalone Modules</h3>
+                <p>All prices below are in Australian Dollars.</p>
+              </div>
+            </div>
+            <div class="row pricing-table-row">
+              <div class="col-md-12 pricing-table-col">
+                <div class="pricing-table-header text-center">
+                <div>&nbsp;</div>
+                  <h4> </h4>
+                  
+                </div>
+
+                <div class="pricing-table-body">
+                  <ul>
+                    <li><strong>Thumbprint Authentication $2,999/Site + $99/month License Fees.</strong> </br>Simple module to track staff timesheet.</li>
+                    <li><strong>Barcode QuickScan $250/User</strong></br>Scan,Track and Simplify processes.*</li>
+                    <li><strong>Barcode Manager $999/User</strong>  </br>The easiest way to scan and link products to barcodes.*</li>
+                    <li><strong>Custom Development</strong></br>We can add on to existing solutions or make standalone applications. Contact us for more information.</li>
+                    <li>* Requires compatible input devices sold separately.</li>
+                  </ul>   
+                </div>
+              </div>
+            </div></br>
+              <a class="btn btn-default btn-sm" href="#contact">Contact Us</a>
+          </div>
+        </section>
 
 
 
@@ -131,9 +468,7 @@
         </section>
 
 
-
-
-
+   
 
 
 
@@ -161,7 +496,7 @@
 
     <!-- Init the Owl Carousel slider script - remove this code if it is not in use -->
     <script type="text/javascript">
-    $('.owl-carousel').owlCarousel({
+    window.anOwl = $('.owl-carousel').owlCarousel({
         animateOut: 'fadeOut',
         autoHeight:true,
         items:1,
