@@ -1032,10 +1032,21 @@ img {
   vertical-align: middle; }
 
 .img-responsive {
-  display: block;
+ /* display: block;
   width: 20%;
   height: auto;
   margin-top:3px
+
+ display: block; --*/
+  max-width: 15%;
+  height: auto;
+
+}
+
+.img-responsive-nm {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 
@@ -3285,8 +3296,8 @@ tbody.collapse.in {
       .navbar-nav > li {
         float: left; }
         .navbar-nav > li > a {
-          padding-top: 38.5px;
-          padding-bottom: 38.5px; } }
+          padding-top: 20px;
+          padding-bottom: 15px; } }
 
 .navbar-form {
   margin-left: -40px;
@@ -7009,6 +7020,9 @@ body.layout-boxed .wrapper .container {
 
 .wrapper-huge {
   padding: 280px 0; }
+
+.wrapper-huger {
+  padding: 380px 0; }
 
 .wrapper-100vh {
   height: 100vh;
